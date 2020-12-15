@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+   
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+  	
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+#intro{
+	background-color: #ffb5a7;
+	text-align: center;
+	background-image:url("../img/bg3.png");
+	background-size: cover;
+}
+
+#about{
+	background-color: #fcd5ce;
+}
+
+#services{
+  background-color: #f8edeb;
+
+}
+
+#services2{
+	padding-top: 0.1%;
+	background-color: #f8edeb;
+}
+
+h3{
+	padding: 2%;
+}
+
+#contact {
+	background-color: #ffb5a7;
+	text-align: center;
+background-image: url("../img/contact bg.png");
+}
+
+#boton {
+	background-color: #ED917F;
+	color: black;
+	transition-property: background-color;
+	transition-duration: 150ms; 
+}
+
+#boton:hover {
+	background-color: #f8edeb;
+}
+.titlecontact{
+	text-align: start;
+}
+footer{
+	color: #ED917F;
+	text-align: center;
+	padding: 20px; 
+	background-color: #f8edeb;
+}
